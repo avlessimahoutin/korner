@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Korner</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="body">
+        <div class="nom">
+            Korner
+
+            <div class="menu">
+                <a href=""
+                    style="color: rgba(245, 150, 7, 0.527);font-size: 20px;font-family: 'Times New Roman', Times, serif;">Cours</a>
+                <a href="media.html"
+                    style="color: black;font-size: 20px;font-family: 'Times New Roman', Times, serif;">Medias</a>
+                <button id="tester" style="color: rgb(245, 150, 7);">TESTER</button>
+
+            </div>
+            <div id="ctest">
+
+                <label style="color: rgba(245, 150, 7, 0.541);font-weight: bold;">Code:</label><br>
+
+                <textarea id="ctest1"></textarea>
+
+                <button id="voir" style="color: rgba(245, 150, 7, 0.541);">Voir le résultat</button><br>
+                <div id="ctest2"></div>
+
+            </div>
+
+
+
+        </div>
+
+        <div
+            style="border-style: none;width: 100%;min-height: 100px;font-weight: normal; color: black; display: flex;flex-wrap: wrap;justify-content: space-around; font-size: 20px; ">
+
+            <div style="border-style: none;width: 100%;height: 100px;background-color:none; margin-top: 0px;">
+
+            </div>
+            <div id="html1" style="border-style:none;width:200px; padding: 10px;text-align: center;">
+                <img src="html.jpg" style="height: 100px;">
+                <b style="color: green; "><strong style="color: black;">Les bases du html 1</strong> DISPONIBLE</b><br>
+
+            </div>
+
+            <div id="chtml1" class="cours">
+                <strong style="color:rgba(245, 150, 7, 0.541);">1. Introduction</strong><br>
+                <em>HTML est l’abréviation de HyperText Markup Language, soit en français « langage hypertexte de
+                    balisage ». Ce langage a été créé en 1991 et a pour fonction de structurer et de donner du sens à
+                    du contenu.</em> <br><br>
+                <li>HTML est utilisé pour baliser un contenu, c’est à dire pour le structurer et lui donner du
+                    sens. Le HTML sert, entre autres choses, à indiquer aux navigateurs quel texte doit être
+                    considéré comme un paragraphe, quel texte doit être considéré comme un titre, que tel
+                    contenu est une image ou une vidéo</li> <br><br>
+                <li>Pour coder en HTML et en CSS, nous n’avons besoin que d’un éditeur de text :
+                    NotePad++, sous Windows;
+                    Komodo, pour Mac ou Linux;
+                    TextWrangler, pour Linux.
+                </li><br><br>
+                <strong style="color:rgba(245, 150, 7, 0.541);">2. Les bases en HTML </strong><br><br>
+                <em style="color:rgba(245, 150, 7, 0.541);">Éléments, balises et attributs </em>
+
+                <p>Il y a trois termes dont vous devez absolument comprendre le sens en HTML. Ce sont les termes
+                    élément, balise et attribut.<br><br>
+                    Les éléments, tout d’abord, vont nous servir à définir des objets dans notre page. Grâce aux
+                    éléments, nous allons pouvoir définir un paragraphe (élément p), des titres d’importances diverses
+                    (éléments h1, h2, h3, h4, h5 et h6) ou un lien (élément a).<br><br>
+
+                    Les éléments sont constitués de balises. Dans la majorité des cas, un élément est constitué d’une
+                    paire de balises : une balise ouvrante et une balise fermante.
+                    <br>
+
+                    <img src="htmlbase1.png" style="max-width: 100%;"><br>
+                    <em>Les balises reprennent le nom de l’élément et sont entourées de chevrons. La balise fermante
+                        possède en plus un slash qui précède le nom de l’élément.</em><br><br>
+
+                    Cependant, certains éléments ne sont constitués que d’une balise qu’on appelle alors balise
+                    orpheline. C’est par exemple le cas de l’élément br qui va nous servir à créer un retour à la ligne.
+                    Notez que, dans le cas des balises orphelines, le slash se situe après le nom de l’élément. Notez
+                    également que ce slash n’est pas obligatoire et que certains développeurs l’omettent
+                    volontairement.<br>
+                    <img src="htmlbase2.png" style="max-width: 100%;"><br>
+                    Dans l’exemple ci-dessus, on discerne l’élément a composé :
+                    <li>d’une balise ouvrante elle-même composée d’un attribut href ;</li>
+                    <li>d’une ancre textuelle ;</li>
+                    <li>d’une balise fermante.</li>
+                    Voici ce que les visiteurs de votre site verront :<br>
+                    <img src="htmlbase3.png" style="max-width: 100%;"><br><br>
+
+                    Si vous vous sentez un peu perdu pour le moment, ne vous inquiétez pas, c’est tout-à-fait normal !
+                    Continuez le cours, vous allez voir : avec un peu de pratique, tout cela va très vite se décanter et
+                    vous aurez tout compris avant même de vous en rendre compte ! <br><br>
+
+                    <em style="color:rgba(245, 150, 7, 0.541);">Structure de base d’une page en HTML5</em> <br><br>
+
+                    En programmation comme dans beaucoup d’autres disciplines, vous l’aurez compris, il y a des
+                    règles.<br>
+                    Ainsi, toute page écrite en HTML5 doit comporter une certaine structure, un « squelette » qui sera
+                    toujours le même. Ce squelette est bien évidemment constitué de divers éléments <br>
+                    <img src="htmlbase4.png" style="max-width: 100%;"><br><br>
+                    <li>Tout d’abord, toute page HTML5 doit commencer par la déclaration de ce qu’on appelle un «
+                        doctype ». Le doctype, comme son nom l’indique, sert à indiquer le type du document. Dans notre
+                        cas, le type de document est HTML.</li>
+
+                    <b>Notez bien le point d’exclamation, obligatoire, au début de cet élément un peu
+                        particulier.</b><br>
+                    Ensuite, pour que notre page HTML5 soit valide, il va nous falloir indiquer trois nouveaux éléments
+                    : html, head (« en-tête ») et body (« corps de page »).
+                    <li>L’élément html va contenir toute la page.</li>
+                    <li>L’élément head contiendra entre autres, le titre de la page, l’encodage utilisé et des meta-data
+                        (des données invisibles pour les utilisateurs mais essentielles – nous en reparlerons plus
+                        tard).
+                    </li>
+                    <li>L’élément body contiendra tout le contenu de notre page (paragraphes, images, tableaux, etc.).
+                    </li>
+                    <em>Mais ce n’est pas fini ! Pour que la page soit valide, l’élément head doit lui même contenir un
+                        élément title, qui correspond au titre de la page et le meta charset qui prendra comme valeur le
+                        type d’encodage choisi.<br>
+                        Pour les langues latines, nous choisirons généralement la valeur « utf-8 ».
+                    </em>
+                </p>
+                <em style="color:rgba(245, 150, 7, 0.541);">Les commentaires</em> <br><br>
+                <span>Commenter son code, c’est tout simplement y ajouter des commentaires. Ces commentaires sont
+                    spéciaux : il ne seront pas visibles par vos visiteurs (à moins que ceux-ci n’affichent le code
+                    source
+                    de la page).<br>
+                    Voici comment on écrit un commentaire en HTML :</span><br>
+
+                <img src="htmlbase5.png" style="max-width: 100%;"><br><br>
+                <b>En bref : commenter n’est pas un luxe mais souvent ce qui sépare un développeur moyen d’un
+                    bon développeur, tout simplement.</b>
+
+                <strong style="color:rgba(245, 150, 7, 0.541);">Listes ordonnées et non-ordonnées </strong><br><br>
+                <p>
+                    Les listes servent à ordonner du contenu, à lui donner un ordre cohérent.<br>
+                    Visuellement, les listes en HTML correspondent à ce que vous créez lorsque vous utilisez des
+                    puces dans un document LibreOffice :
+                    <li>Élément numéro 1</li>
+                    <li>Élément numéro 2</li>
+                    <li>Élément numéro 3</li>
+                    <em>En HTML, les listes vont avoir deux grands intérêts : on va pouvoir les utiliser pour créer des
+                        menus ou, dans leur forme brute, pour mieux présenter du contenu pour un blog par exemple.</em>
+                    <br>
+                    <br>
+                    <span>La différence entre les listes ordonnées et non-ordonnées est que les listes ordonnées
+                        possèdent
+                        un aspect de subordination, d’ordre logique, de classement tandis que ce n’est pas le cas pour
+                        les
+                        listes non-ordonnées.<br>
+
+                        Pour créer une liste non-ordonnée, on va avoir besoin de deux nouveaux éléments : l’élément ul
+                        (abréviation de unordered list), qui va contenir toute la liste et l’élément li (pour list item)
+                        que l’on va utiliser pour créer chaque élément de la liste.
+
+                    </span><br>
+                    <em style="color:rgba(245, 150, 7, 0.541);"> listes non-ordonnées.
+                    </em> <br>
+                    <img src="htmlbase6.png" style="max-width: 100%;"><br><br>
+                    <em>Pour créer une liste ordonnée maintenant, nous allons simplement remplacer l’élément ul par
+                        l’élément ol (pour ordered list).</em> <br><br>
+                    <img src="htmlbase7.png" style="max-width: 100%;"><br><br>
+                </p>
+                <strong style="color:rgba(245, 150, 7, 0.541);">Récapitulatif des balises de base<br><br></strong>
+                <a href="les balises HTML5.pdf"> Les balises en HTLM 5</a> <br><br>
+                <strong style="color:rgba(245, 150, 7, 0.541);">Exercice 1 : Votre première page HTML<br><br></strong>
+                <b>Ecrivez l'extrait de code HTML qui réalise ce titrage :</b><br>
+                <img src="ehtmlbase1.png" style="max-width: 100%;"><br><br>
+                <img src="ehtmlbase2.png" style="max-width: 100%;"><br><br>
+                <img src="ehtmlbase3.png" style="max-width: 100%;"><br><br>
+
+            </div>
+
+
+            <div id="css1" style="border-style: none;width:200px; padding: 10px;text-align: center;">
+                <img src="css.jpg" style="height: 100px;">
+                <b style="color: green; "><br><strong style="color: black;">Les bases du CSS 1</strong>
+                    DISPONIBLE</b><br>
+            </div>
+
+            <div id="ccss1" class="cour">
+                <strong style="color:rgba(245, 150, 7, 0.541);">Introduction CSS</strong><br><br>
+                <em>CSS signifie Cascading StyleSheets, soit « feuilles de style en cascade ». Il a été créé en 1996
+                    et
+                    a pour rôle de mettre en forme du contenu en lui appliquant ce qu’on appelle des styles.</em>
+                <br><br>
+                <li>CSS est utilisé pour appliquer des styles à un contenu, c’est-à-dire à le mettre en forme.
+                    Ainsi, avec le CSS, on pourra changer la couleur ou la taille d’un texte, positionner tel
+                    contenu à tel endroit de notre page web ou ajouter des bordures ou des ombres autour
+                    d’un contenu.</li>
+                <em style="color:rgba(245, 150, 7, 0.541);">Sélecteurs, propriétés et valeurs</em> <br>
+                <span> Pour rappel, le CSS sert à modifier l’apparence de nos pages web en appliquant des styles au
+                    contenu en HTML.</span><br>
+                <li><b>Un sélecteur</b>, tout d’abord, va servir à déterminer à quel(s) élément(s) HTML ou à quel type
+                    d’éléments on souhaite appliquer un style particulier. Si l’on souhaite appliquer un style
+                    particulier
+                    à tous nos paragraphes, par exemple, on utilisera le sélecteur « p ».</li>
+                <li>
+                    <b>Une propriété</b> va nous servir à modifier le style d’un élément en ciblant un critère bien
+                    particulier
+                    comme la taille d’un texte, sa police ou sa couleur par exemple.
+                </li>
+                <li>
+                    <b>Une valeur</b>, enfin, va venir compléter une propriété et va en déterminer le comportement. Pour
+                    la
+                    propriété servant à changer la couleur d’un texte par exemple, la valeur va être la nouvelle couleur
+                    à appliquer.
+                </li>
+                <em>Voici ci-dessous une illustration concrète de ce que l’on vient de dire :</em> <br>
+                <img src="basecss1.png" style="max-width: 100%;"><br><br>
+                <em style="color:rgba(245, 150, 7, 0.541);">commentaires du code</em> <br>
+                <p>
+                    Dans cet exemple, nous utilisons le sélecteur simple « p », ce qui signifie que nous souhaitons
+                    appliquer un style particulier à tous les paragraphes de nos pages.<br>
+                    Nous utilisons les propriétés « color » (qui sert à modifier la couleur d’un texte) et « font-size »
+                    (pour changer la taille d’un texte). Cela signifie donc que nous travaillerons sur la couleur et la
+                    taille de nos paragraphes.<br>
+                    Enfin, nous indiquons que nous voulons que tous nos paragraphes s’affichent en bleu grâce à la
+                    valeur « blue » et que notre texte ait une taille de 16px avec la valeur « 16px ».<br>
+                    Notez d’ores-et-déjà la syntaxe de notre première déclaration en CSS. On entoure les propriétés et
+                    les valeurs avec des accolades et on place un point virgule après avoir spécifié une valeur pour
+                    chacune de nos propriétés. Chaque propriété est séparée de sa valeur par un deux-points.
+                </p>
+                <strong style="color:rgba(245, 150, 7, 0.541);">Où écrire le CSS ?</strong><br><br>
+                <li>A l’intérieur de l’élément head de notre document HTML ;</li>
+                <img src="cssbase2.png" style="max-width: 100%;"><br><br>
+
+                <li>Dans la balise ouvrante des éléments de notre fichier HTML ;</li>
+                <img src="cssbase3.png" style="max-width: 100%;"><br><br>
+
+                <li>Dans un fichier portant l’extension .css séparé.</li>
+
+                <p>
+                    Troisième et dernière méthode enfin (la méthode recommandée) : écrire le code CSS dans un
+                    fichier séparé. Pour faire cela, nous allons déjà devoir ouvrir un nouveau fichier dans notre
+                    éditeur de texte et l’enregistrer au format « .css ». Vous pouvez le nommer « style.css ».
+                    Pensez bien à enregistrer ce fichier dans le même dossier que votre fichier HTML dont vous
+                    souhaitez modifier le style, sinon vous risquez d’avoir des problèmes.
+                    Une fois que vous avez fait cela, retournez sur votre page HTML. Nous allons maintenant devoir
+                    lier nos deux fichiers HTML et CSS. On va faire cela à l’aide d’un élément <b>link</b> que nous
+                    allons
+                    placer dans l’élément head de cette manière :
+                </p>
+
+                <img src="cssbase4.png" style="max-width: 100%;"><br><br>
+
+                <strong style="color:rgba(245, 150, 7, 0.541);">Les commentaires en CSS</strong><br><br>
+                <p>
+                    On a déjà vu que l’on pouvait commenter en HTML. Cela est également possible en CSS.<br>
+                    Les fichiers CSS deviennent rapidement très long (beaucoup plus que les fichiers HTML par
+                    exemple) donc si vous ne commentez pas efficacement vous risquez d’être très vite perdu.<br>
+                    De plus, si vous distribuez votre code, je pense que la personne sera contente d’avoir quelques
+                    lignes de commentaires pour l’aider à trouver ce qu’elle cherche au milieu de 2000 lignes de code
+                    !<br>
+                    En CSS, on écrit les commentaires de cette manière :
+                </p>
+                <img src="cssbase5.png" style="max-width: 100%;"><br><br>
+
+
+
+
+
+            </div>
+            <div style="border-style: none;width:200px; padding: 10px;text-align: center;">
+                <img src="js.png" style="height: 100px;">
+
+            </div>
+
+            <div style="border-style: none;width:200px; padding: 10px;text-align: center;">
+                <img src="php.png" style="height: 100px;">
+
+            </div>
+
+            <div style="border-style: none;width:200px; padding: 10px;text-align: center;">
+                <img src="cpp.jpg" style="height: 100px;">
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    <div class="article">
+
+
+    </div>
+
+    <script src="jquery1..js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
